@@ -17,7 +17,7 @@
 3. 选择 `autohjfy.xpi` 并重启 Zotero
 
 ## 使用
-### 手动添加翻译附件（推荐）
+
 1. 选中单个条目，右键 → “Add HJFY Translation”
 2. 浏览器打开对应 `https://hjfy.top/arxiv/{arxivId}` 页面
 3. 在浏览器**手动点击**下载翻译 PDF
@@ -32,7 +32,7 @@
 ### 为什么没有自动下载？
 HJFY 需要登录，Zotero 的隐藏浏览器无法完成登录流程，也查找不到直链下载，因此改为“打开网页 + 手动下载 + 选择本地 PDF”的流程。
 
-### 为什么点击"Add HJFY Translation"之后很久都没有弹出来
+### 为什么点击"Add HJFY Translation"之后很久都没有弹出来网站？
 如果你要添加的文章 HJFY 没有缓存，那么 HJFY 会翻译好再弹出网站，需要等待网站翻译完成。
 
 ### 为什么提示“未找到 arXiv 网址或编号”？
