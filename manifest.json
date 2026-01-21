@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "autohjfy",
+  "version": "0.1.0",
+  "description": "Auto-download HJFY translations for arXiv items.",
+  "author": "VegTea",
+  "applications": {
+    "zotero": {
+      "id": "autohjfy@vegtea",
+      "strict_min_version": "7.0",
+      "strict_max_version": "7.0.*",
+      "update_url": "https://example.invalid/updates.json"
+    }
+  },
+  "legacy": {
+    "type": "bootstrap"
+  },
+  "background": {
+    "scripts": ["bootstrap.js"]
+  }
+}
