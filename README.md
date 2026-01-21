@@ -11,7 +11,7 @@
 ## 安装
 1. 打包扩展：
    ```bash
-   bash /home/haocheng/Workspace/zotero_plugin/build.sh
+   bash ./build.sh
    ```
 2. Zotero 7 → 工具 → 插件 → Manage Your Plugins → Install Plugin From File...  
 3. 选择 `autohjfy.xpi` 并重启 Zotero
